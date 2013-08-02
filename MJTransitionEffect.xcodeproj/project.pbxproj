@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7715883017A91CA700FEA414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7715882F17A91CA700FEA414 /* UIKit.framework */; };
+		7715883217A91CA700FEA414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7715883117A91CA700FEA414 /* Foundation.framework */; };
+		7715883417A91CA700FEA414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7715883317A91CA700FEA414 /* CoreGraphics.framework */; };
+		77CC9EE817AA52650042EB0B /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77CC9EE717AA52650042EB0B /* SampleData.plist */; };
+		77D69FB617ABDE2B00DE21A4 /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FB517ABDE2B00DE21A4 /* sample.gif */; };
+		77D69FBD17ABE8DF00DE21A4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FB717ABE8DF00DE21A4 /* Default-568h@2x.png */; };
+		77D69FBE17ABE8DF00DE21A4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FB817ABE8DF00DE21A4 /* Default.png */; };
+		77D69FBF17ABE8DF00DE21A4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FB917ABE8DF00DE21A4 /* Default@2x.png */; };
+		77D69FC017ABE8DF00DE21A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D69FBA17ABE8DF00DE21A4 /* main.m */; };
+		77D69FC117ABE8DF00DE21A4 /* MJTransitionEffect-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FBB17ABE8DF00DE21A4 /* MJTransitionEffect-Info.plist */; };
+		77D69FD017ABE90700DE21A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D69FC617ABE90700DE21A4 /* AppDelegate.m */; };
+		77D69FD117ABE90700DE21A4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D69FC817ABE90700DE21A4 /* DetailViewController.m */; };
+		77D69FD217ABE90700DE21A4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FC917ABE90700DE21A4 /* DetailViewController.xib */; };
+		77D69FD317ABE90700DE21A4 /* SampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D69FCB17ABE90700DE21A4 /* SampleCell.m */; };
+		77D69FD417ABE90700DE21A4 /* SampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FCC17ABE90700DE21A4 /* SampleCell.xib */; };
+		77D69FD517ABE90700DE21A4 /* temp.png in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FCD17ABE90700DE21A4 /* temp.png */; };
+		77D69FD617ABE90700DE21A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D69FCF17ABE90700DE21A4 /* ViewController.m */; };
+		77D69FD917ABE91B00DE21A4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FD717ABE91B00DE21A4 /* ViewController.xib */; };
+		77D69FE417ABE92900DE21A4 /* images-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FDA17ABE92900DE21A4 /* images-1.jpeg */; };
+		77D69FE517ABE92900DE21A4 /* images-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FDB17ABE92900DE21A4 /* images-2.jpeg */; };
+		77D69FE617ABE92900DE21A4 /* images-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FDC17ABE92900DE21A4 /* images-3.jpeg */; };
+		77D69FE717ABE92900DE21A4 /* images-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FDD17ABE92900DE21A4 /* images-4.jpeg */; };
+		77D69FE817ABE92900DE21A4 /* images-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FDE17ABE92900DE21A4 /* images-5.jpeg */; };
+		77D69FE917ABE92900DE21A4 /* images-6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FDF17ABE92900DE21A4 /* images-6.jpeg */; };
+		77D69FEA17ABE92900DE21A4 /* images-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FE017ABE92900DE21A4 /* images-7.jpeg */; };
+		77D69FEB17ABE92900DE21A4 /* images-8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FE117ABE92900DE21A4 /* images-8.jpeg */; };
+		77D69FEC17ABE92900DE21A4 /* images-9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FE217ABE92900DE21A4 /* images-9.jpeg */; };
+		77D69FED17ABE92900DE21A4 /* images-10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FE317ABE92900DE21A4 /* images-10.jpeg */; };
+		77D69FF017ABE97900DE21A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77D69FEE17ABE97900DE21A4 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7715882C17A91CA700FEA414 /* MJTransitionEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJTransitionEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7715882F17A91CA700FEA414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7715883117A91CA700FEA414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7715883317A91CA700FEA414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77CC9EE717AA52650042EB0B /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
+		77D69FB517ABDE2B00DE21A4 /* sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sample.gif; sourceTree = "<group>"; };
+		77D69FB717ABE8DF00DE21A4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "MJTransitionEffect/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		77D69FB817ABE8DF00DE21A4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = MJTransitionEffect/Default.png; sourceTree = SOURCE_ROOT; };
+		77D69FB917ABE8DF00DE21A4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "MJTransitionEffect/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		77D69FBA17ABE8DF00DE21A4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MJTransitionEffect/main.m; sourceTree = SOURCE_ROOT; };
+		77D69FBB17ABE8DF00DE21A4 /* MJTransitionEffect-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MJTransitionEffect-Info.plist"; path = "MJTransitionEffect/MJTransitionEffect-Info.plist"; sourceTree = SOURCE_ROOT; };
+		77D69FBC17ABE8DF00DE21A4 /* MJTransitionEffect-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MJTransitionEffect-Prefix.pch"; path = "MJTransitionEffect/MJTransitionEffect-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		77D69FC517ABE90700DE21A4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MJTransitionEffect/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		77D69FC617ABE90700DE21A4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MJTransitionEffect/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		77D69FC717ABE90700DE21A4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = MJTransitionEffect/DetailViewController.h; sourceTree = SOURCE_ROOT; };
+		77D69FC817ABE90700DE21A4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = MJTransitionEffect/DetailViewController.m; sourceTree = SOURCE_ROOT; };
+		77D69FC917ABE90700DE21A4 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailViewController.xib; path = MJTransitionEffect/DetailViewController.xib; sourceTree = SOURCE_ROOT; };
+		77D69FCA17ABE90700DE21A4 /* SampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SampleCell.h; path = MJTransitionEffect/SampleCell.h; sourceTree = SOURCE_ROOT; };
+		77D69FCB17ABE90700DE21A4 /* SampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleCell.m; path = MJTransitionEffect/SampleCell.m; sourceTree = SOURCE_ROOT; };
+		77D69FCC17ABE90700DE21A4 /* SampleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SampleCell.xib; path = MJTransitionEffect/SampleCell.xib; sourceTree = SOURCE_ROOT; };
+		77D69FCD17ABE90700DE21A4 /* temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = temp.png; path = MJTransitionEffect/temp.png; sourceTree = SOURCE_ROOT; };
+		77D69FCE17ABE90700DE21A4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MJTransitionEffect/ViewController.h; sourceTree = SOURCE_ROOT; };
+		77D69FCF17ABE90700DE21A4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MJTransitionEffect/ViewController.m; sourceTree = SOURCE_ROOT; };
+		77D69FD817ABE91B00DE21A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MJTransitionEffect/en.lproj/ViewController.xib; sourceTree = SOURCE_ROOT; };
+		77D69FDA17ABE92900DE21A4 /* images-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-1.jpeg"; path = "Images/images-1.jpeg"; sourceTree = "<group>"; };
+		77D69FDB17ABE92900DE21A4 /* images-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-2.jpeg"; path = "Images/images-2.jpeg"; sourceTree = "<group>"; };
+		77D69FDC17ABE92900DE21A4 /* images-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-3.jpeg"; path = "Images/images-3.jpeg"; sourceTree = "<group>"; };
+		77D69FDD17ABE92900DE21A4 /* images-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-4.jpeg"; path = "Images/images-4.jpeg"; sourceTree = "<group>"; };
+		77D69FDE17ABE92900DE21A4 /* images-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-5.jpeg"; path = "Images/images-5.jpeg"; sourceTree = "<group>"; };
+		77D69FDF17ABE92900DE21A4 /* images-6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-6.jpeg"; path = "Images/images-6.jpeg"; sourceTree = "<group>"; };
+		77D69FE017ABE92900DE21A4 /* images-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-7.jpeg"; path = "Images/images-7.jpeg"; sourceTree = "<group>"; };
+		77D69FE117ABE92900DE21A4 /* images-8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-8.jpeg"; path = "Images/images-8.jpeg"; sourceTree = "<group>"; };
+		77D69FE217ABE92900DE21A4 /* images-9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-9.jpeg"; path = "Images/images-9.jpeg"; sourceTree = "<group>"; };
+		77D69FE317ABE92900DE21A4 /* images-10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "images-10.jpeg"; path = "Images/images-10.jpeg"; sourceTree = "<group>"; };
+		77D69FEF17ABE97900DE21A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = MJTransitionEffect/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7715882917A91CA700FEA414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7715883017A91CA700FEA414 /* UIKit.framework in Frameworks */,
+				7715883217A91CA700FEA414 /* Foundation.framework in Frameworks */,
+				7715883417A91CA700FEA414 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7715882317A91CA700FEA414 = {
+			isa = PBXGroup;
+			children = (
+				77D69FB517ABDE2B00DE21A4 /* sample.gif */,
+				77CC9EE717AA52650042EB0B /* SampleData.plist */,
+				77CC9ED217AA52030042EB0B /* Sample Images */,
+				7715883517A91CA700FEA414 /* MJTransitionEffect */,
+				7715882E17A91CA700FEA414 /* Frameworks */,
+				7715882D17A91CA700FEA414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7715882D17A91CA700FEA414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7715882C17A91CA700FEA414 /* MJTransitionEffect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7715882E17A91CA700FEA414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7715882F17A91CA700FEA414 /* UIKit.framework */,
+				7715883117A91CA700FEA414 /* Foundation.framework */,
+				7715883317A91CA700FEA414 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7715883517A91CA700FEA414 /* MJTransitionEffect */ = {
+			isa = PBXGroup;
+			children = (
+				77D69FC517ABE90700DE21A4 /* AppDelegate.h */,
+				77D69FC617ABE90700DE21A4 /* AppDelegate.m */,
+				77D69FC717ABE90700DE21A4 /* DetailViewController.h */,
+				77D69FC817ABE90700DE21A4 /* DetailViewController.m */,
+				77D69FC917ABE90700DE21A4 /* DetailViewController.xib */,
+				77D69FCA17ABE90700DE21A4 /* SampleCell.h */,
+				77D69FCB17ABE90700DE21A4 /* SampleCell.m */,
+				77D69FCC17ABE90700DE21A4 /* SampleCell.xib */,
+				77D69FCD17ABE90700DE21A4 /* temp.png */,
+				77D69FCE17ABE90700DE21A4 /* ViewController.h */,
+				77D69FCF17ABE90700DE21A4 /* ViewController.m */,
+				77D69FD717ABE91B00DE21A4 /* ViewController.xib */,
+				7715883617A91CA700FEA414 /* Supporting Files */,
+			);
+			name = MJTransitionEffect;
+			path = AnimationMaximize;
+			sourceTree = "<group>";
+		};
+		7715883617A91CA700FEA414 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D69FB717ABE8DF00DE21A4 /* Default-568h@2x.png */,
+				77D69FB817ABE8DF00DE21A4 /* Default.png */,
+				77D69FEE17ABE97900DE21A4 /* InfoPlist.strings */,
+				77D69FB917ABE8DF00DE21A4 /* Default@2x.png */,
+				77D69FBA17ABE8DF00DE21A4 /* main.m */,
+				77D69FBB17ABE8DF00DE21A4 /* MJTransitionEffect-Info.plist */,
+				77D69FBC17ABE8DF00DE21A4 /* MJTransitionEffect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77CC9ED217AA52030042EB0B /* Sample Images */ = {
+			isa = PBXGroup;
+			children = (
+				77D69FDA17ABE92900DE21A4 /* images-1.jpeg */,
+				77D69FDB17ABE92900DE21A4 /* images-2.jpeg */,
+				77D69FDC17ABE92900DE21A4 /* images-3.jpeg */,
+				77D69FDD17ABE92900DE21A4 /* images-4.jpeg */,
+				77D69FDE17ABE92900DE21A4 /* images-5.jpeg */,
+				77D69FDF17ABE92900DE21A4 /* images-6.jpeg */,
+				77D69FE017ABE92900DE21A4 /* images-7.jpeg */,
+				77D69FE117ABE92900DE21A4 /* images-8.jpeg */,
+				77D69FE217ABE92900DE21A4 /* images-9.jpeg */,
+				77D69FE317ABE92900DE21A4 /* images-10.jpeg */,
+			);
+			name = "Sample Images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7715882B17A91CA700FEA414 /* MJTransitionEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7715884F17A91CA800FEA414 /* Build configuration list for PBXNativeTarget "MJTransitionEffect" */;
+			buildPhases = (
+				7715882817A91CA700FEA414 /* Sources */,
+				7715882917A91CA700FEA414 /* Frameworks */,
+				7715882A17A91CA700FEA414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJTransitionEffect;
+			productName = AnimationMaximize;
+			productReference = 7715882C17A91CA700FEA414 /* MJTransitionEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7715882417A91CA700FEA414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = mayur;
+			};
+			buildConfigurationList = 7715882717A91CA700FEA414 /* Build configuration list for PBXProject "MJTransitionEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7715882317A91CA700FEA414;
+			productRefGroup = 7715882D17A91CA700FEA414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7715882B17A91CA700FEA414 /* MJTransitionEffect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7715882A17A91CA700FEA414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CC9EE817AA52650042EB0B /* SampleData.plist in Resources */,
+				77D69FB617ABDE2B00DE21A4 /* sample.gif in Resources */,
+				77D69FBD17ABE8DF00DE21A4 /* Default-568h@2x.png in Resources */,
+				77D69FBE17ABE8DF00DE21A4 /* Default.png in Resources */,
+				77D69FBF17ABE8DF00DE21A4 /* Default@2x.png in Resources */,
+				77D69FC117ABE8DF00DE21A4 /* MJTransitionEffect-Info.plist in Resources */,
+				77D69FD217ABE90700DE21A4 /* DetailViewController.xib in Resources */,
+				77D69FD417ABE90700DE21A4 /* SampleCell.xib in Resources */,
+				77D69FD517ABE90700DE21A4 /* temp.png in Resources */,
+				77D69FD917ABE91B00DE21A4 /* ViewController.xib in Resources */,
+				77D69FE417ABE92900DE21A4 /* images-1.jpeg in Resources */,
+				77D69FE517ABE92900DE21A4 /* images-2.jpeg in Resources */,
+				77D69FE617ABE92900DE21A4 /* images-3.jpeg in Resources */,
+				77D69FE717ABE92900DE21A4 /* images-4.jpeg in Resources */,
+				77D69FE817ABE92900DE21A4 /* images-5.jpeg in Resources */,
+				77D69FE917ABE92900DE21A4 /* images-6.jpeg in Resources */,
+				77D69FEA17ABE92900DE21A4 /* images-7.jpeg in Resources */,
+				77D69FEB17ABE92900DE21A4 /* images-8.jpeg in Resources */,
+				77D69FEC17ABE92900DE21A4 /* images-9.jpeg in Resources */,
+				77D69FED17ABE92900DE21A4 /* images-10.jpeg in Resources */,
+				77D69FF017ABE97900DE21A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7715882817A91CA700FEA414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D69FC017ABE8DF00DE21A4 /* main.m in Sources */,
+				77D69FD017ABE90700DE21A4 /* AppDelegate.m in Sources */,
+				77D69FD117ABE90700DE21A4 /* DetailViewController.m in Sources */,
+				77D69FD317ABE90700DE21A4 /* SampleCell.m in Sources */,
+				77D69FD617ABE90700DE21A4 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77D69FD717ABE91B00DE21A4 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D69FD817ABE91B00DE21A4 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		77D69FEE17ABE97900DE21A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D69FEF17ABE97900DE21A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7715884D17A91CA800FEA414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anand Shah (A8VHE84DGR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anand Shah (A8VHE84DGR)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "454F9832-5D04-4B7A-857D-B6F429045F5E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "454F9832-5D04-4B7A-857D-B6F429045F5E";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7715884E17A91CA800FEA414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anand Shah (A8VHE84DGR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anand Shah (A8VHE84DGR)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "454F9832-5D04-4B7A-857D-B6F429045F5E";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "454F9832-5D04-4B7A-857D-B6F429045F5E";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7715885017A91CA800FEA414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anand Shah (A8VHE84DGR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anand Shah (A8VHE84DGR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJTransitionEffect/MJTransitionEffect-Prefix.pch";
+				INFOPLIST_FILE = "MJTransitionEffect/MJTransitionEffect-Info.plist";
+				PRODUCT_NAME = MJTransitionEffect;
+				PROVISIONING_PROFILE = "2CD50994-F1F9-480F-AB70-BE79BF7A3DBE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2CD50994-F1F9-480F-AB70-BE79BF7A3DBE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7715885117A91CA800FEA414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anand Shah (A8VHE84DGR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Anand Shah (A8VHE84DGR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MJTransitionEffect/MJTransitionEffect-Prefix.pch";
+				INFOPLIST_FILE = "MJTransitionEffect/MJTransitionEffect-Info.plist";
+				PRODUCT_NAME = MJTransitionEffect;
+				PROVISIONING_PROFILE = "2CD50994-F1F9-480F-AB70-BE79BF7A3DBE";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2CD50994-F1F9-480F-AB70-BE79BF7A3DBE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7715882717A91CA700FEA414 /* Build configuration list for PBXProject "MJTransitionEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7715884D17A91CA800FEA414 /* Debug */,
+				7715884E17A91CA800FEA414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7715884F17A91CA800FEA414 /* Build configuration list for PBXNativeTarget "MJTransitionEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7715885017A91CA800FEA414 /* Debug */,
+				7715885117A91CA800FEA414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7715882417A91CA700FEA414 /* Project object */;
+}

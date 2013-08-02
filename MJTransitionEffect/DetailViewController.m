@@ -73,7 +73,9 @@
          self.textviewForDetail.frame = CGRectMake(self.textviewForDetail.frame.origin.x, self.view.frame.size.height - self.textviewForDetail.frame.size.height, self.textviewForDetail.frame.size.width, self.textviewForDetail.frame.size.height);
          self.textviewForDetail.alpha = 1;
          
-         self.imageView.frame = CGRectMake(110, 50, CGRectGetWidth(self.imageView.frame) * 2, CGRectGetHeight(self.imageView.frame) * 2);
+         NSLog(@"width %f height %f",self.imageView.frame.size.width,self.imageView.frame.size.height);
+         
+         self.imageView.frame = CGRectMake(110, 50, self.imageView.frame.size.width * 2, self.imageView.frame.size.height * 2);
      }
                      completion:NULL];
 }
